@@ -1,89 +1,59 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+# KonwerterTest
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+## Opis
 
+Projekt "KonwerterTest" to aplikacja do testowania i konwertowania różnych formatów danych. Jej głównym celem jest umożliwienie użytkownikom łatwej konwersji danych między popularnymi formatami, np. JSON, XML, CSV, i innymi. Projekt może być używany zarówno do nauki, jak i w rzeczywistych scenariuszach związanych z manipulacją danych.
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Funkcjonalności
 
+- Konwersja danych między formatami (JSON, XML, CSV).
+- Walidacja poprawności danych w wybranym formacie.
+- Import i eksport plików danych.
+- Przyjazny interfejs użytkownika do obsługi konwersji.
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+## Wymagania
 
+- Java 11+
+- Maven (do zarządzania zależnościami)
+- Opcjonalnie IDE obsługujące projekty Java (np. IntelliJ IDEA, Eclipse)
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+## Instalacja
 
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/Konume/KonwerterTest.git
+   cd KonwerterTest
+   ```
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+2. Zbuduj projekt za pomocą Mavena:
+   ```bash
+   mvn clean install
+   ```
 
+3. Uruchom aplikację:
+   ```bash
+   mvn exec:java -Dexec.mainClass="com.konwertertest.Main"
+   ```
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## Użycie
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+1. Po uruchomieniu aplikacji wybierz format wejściowy i wyjściowy.
+2. Załaduj plik danych lub wprowadź dane ręcznie.
+3. Kliknij przycisk konwersji, aby przekształcić dane.
+4. Zapisz przekonwertowane dane do pliku lub skopiuj je do schowka.
 
+## Dokumentacja
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+Szczegółowe informacje na temat funkcji, przykładów użycia oraz potencjalnych rozszerzeń znajdują się w katalogu `docs` w repozytorium.
 
-`write-your-code-here`
+## Wkład
 
+Chętnie przyjmujemy sugestie i propozycje zmian! Zgłaszaj błędy lub nowe funkcjonalności poprzez system zgłoszeń (Issues). Pull requesty są mile widziane.
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+## Licencja
 
+Projekt "KonwerterTest" jest licencjonowany na warunkach licencji MIT. Szczegóły znajdują się w pliku [LICENSE](LICENSE).
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+---
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Dziękujemy za zainteresowanie projektem i zapraszamy do korzystania oraz współpracy!
